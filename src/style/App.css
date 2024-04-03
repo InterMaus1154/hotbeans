@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 *, *::after, *::before{
     box-sizing: border-box;
 }
 
 
 @font-face{
-    font-family: ocrA;
+    font-family: ocra;
     src: url("../assets/font/OCR-A-Regular.ttf");
 }
 
 body{
-    font-family: ocrA;
     background-color: #ECF2FF;
     margin: 0;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
 h1{
@@ -23,10 +26,11 @@ img, iframe{width: 100%;}
 .Header--default{
     color: #000;
     background-color: #F8EAD8;
+    font-family: ocra, 'Roboto', sans-serif;
 }
 
-
 .Header--home{
+    font-family: ocra, 'Roboto', sans-serif;
     color: #fff;
     background-image: url("../assets/pictures/header_bg.jpg");
     height: 100vh;
@@ -294,6 +298,7 @@ img, iframe{width: 100%;}
 .Page-header{
     text-align: center;
     font-size: 34px;
+    font-family: ocra, sans-serif;
 }
 
 .Home-feature-boxes{
@@ -443,12 +448,15 @@ footer a{
     color: #fff;
     padding: 24px;
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     font-size: 24px;
 }
 
+.Container-header{
+    font-family: ocra, 'Roboto', sans-serif;
+}
 
 .Info-box.Job-box{
     color: #fff;
@@ -561,6 +569,7 @@ a.Button-rounded{
     gap: 12px;
     flex-wrap: wrap;
     margin: 0;
+    text-align: center;
 }
 
 .Contact-details h3, .Contact-details p{
@@ -593,4 +602,9 @@ a.Button-rounded{
 .Video-title{
     text-align: center;
     font-size: 22px;
+}
+
+footer{
+    font-family: ocra, 'Roboot', sans-serif;
+    font-size: 1.25rem;
 }

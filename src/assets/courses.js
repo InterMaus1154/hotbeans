@@ -23,7 +23,7 @@ export const courses = [
             {
                 header: "Required knowledge",
                 contents: [
-                    "None, anyone can apply with basic computing knowledge"
+                    "None, anyone can apply with basic computing knowledge and passion about programming and future development"
                 ]
             }
         ]
@@ -49,7 +49,7 @@ export const courses = [
             {
                 header: "Required knowledge",
                 contents: [
-                    "You will need to prove that you have the basic knowledge in JavaScript after applying"
+                    "To ensure eligibility, you will need to prove through an assessment test, that you possess core knowledge of JavaScript"
                 ]
             }
         ]
@@ -74,7 +74,7 @@ export const courses = [
             {
                 header: "Required knowledge",
                 contents: [
-                    "After applying you will need to prove that you have sufficient knowledge in JavaScript"
+                    "To ensure eligibility, you will need to prove through an assessment test, that you possess core knowledge of JavaScript"
                 ]
             }
         ]

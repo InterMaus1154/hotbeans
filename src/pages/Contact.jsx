@@ -11,11 +11,11 @@ const Contact = () =>{
                 <ul className="Contact-details">
                     <li>
                         <h3>Email: </h3>
-                        <p>enquiry@hotbeans.co.uk</p>
+                        <a href={"mailto: enquiry@hotbeans.co.uk"}>enquiry@hotbeans.co.uk</a>
                     </li>
                     <li>
                         <h3>Phone (available on business days 08:00-16:00)</h3>
-                        <p>+44 2548876888</p>
+                        <a href={"tel: +44 2548876888"}>+44 2548876888</a>
                     </li>
                     <li>
                         <h3>Mailing address:</h3>
