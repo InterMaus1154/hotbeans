@@ -21,6 +21,10 @@ h1{
     margin: 0;
 }
 
+.App{
+    overflow-x: hidden;
+}
+
 img, iframe{width: 100%;}
 
 .Header--default{
@@ -154,6 +158,7 @@ img, iframe{width: 100%;}
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        flex-basis: 25%;
     }
 
     .Navigation--component ul{
@@ -163,7 +168,8 @@ img, iframe{width: 100%;}
     }
 
     .Header-advert{
-        font-size: 28px!important;
+        font-size: 26px!important;
+        flex-basis: 50%;
     }
     #Menu-btn{
         display: flex!important;
@@ -201,7 +207,7 @@ img, iframe{width: 100%;}
 
 @media(max-width: 375px){
     .Header-advert{
-        font-size: 22px!important;
+        font-size: 16px!important;
     }
 }
 
@@ -355,6 +361,8 @@ img, iframe{width: 100%;}
     align-items: center;
     justify-content: center;
     background-color: #EDDBC7;
+
+    padding: 1rem;
 }
 
 .Feature-box .Feature-text-box p{
